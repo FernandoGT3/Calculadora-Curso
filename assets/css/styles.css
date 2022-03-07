@@ -1,5 +1,5 @@
 :root{
-    --primary-color:rgb(56, 135, 200);
+    --primary-color:#A30B37;
 }
 
 *{
@@ -32,6 +32,13 @@ body{
     font-size: 2em;
     text-align: right;
     width: 100%;
+    border: 1.5px solid #e9809d;
+    border-radius: 15px;
+    margin: 10px 0;
+}
+
+.display:focus {
+    outline: 1.5px solid var(--primary-color);
 }
 
 .btn{
@@ -42,12 +49,25 @@ body{
     background-color: #dfdfdf;
     cursor: pointer;
     transition: 300ms all ease-in-out;
+    border-radius: 15px;
 }
 
 .btn:hover {
-    background-color: #c2bdbdc5;
+    background-color: #adadadc5;
 }
 
 .btn-equal{
-    background-color: rgb(56, 135, 200); ;
+    background-color: rgb(103, 173, 230); ;
+}
+
+.btn-equal:hover{
+    background-color: rgb(48, 128, 194); ;
+}
+
+.btn-op{
+    background-color: #ff9933;
+}
+
+.btn-op:hover{
+    background-color: #e47e19;
 }
