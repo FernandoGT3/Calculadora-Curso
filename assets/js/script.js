@@ -72,6 +72,7 @@
 
             btnForDisplay(content){
                 this.display.value += content;
+                this.display.focus();
             }
         };
     }
