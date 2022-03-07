@@ -20,8 +20,34 @@ body{
     max-width: 640px;
     margin: 50px auto;
     padding: 50px;
-    background-color: wheat;
+    background-color: rgb(255, 255, 255);
     border-radius: 20px;
     box-shadow: 10px 10px 5px gray;
 }
 
+.calculator{
+    width: 100%;
+}
+.display {
+    font-size: 2em;
+    text-align: right;
+    width: 100%;
+}
+
+.btn{
+    height: 50px;
+    width: 100%;
+    font-size: 1em;
+    border: none;
+    background-color: #dfdfdf;
+    cursor: pointer;
+    transition: 300ms all ease-in-out;
+}
+
+.btn:hover {
+    background-color: #c2bdbdc5;
+}
+
+.btn-equal{
+    background-color: rgb(56, 135, 200); ;
+}
